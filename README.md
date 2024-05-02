@@ -1,2 +1,1 @@
-# Proyectos
-Este es un repositorio general
+Este proyecto es de trabajo generales en git
