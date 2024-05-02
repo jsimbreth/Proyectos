@@ -1,0 +1,28 @@
+/* reset.css */
+
+/* Establece márgenes y rellenos en 0 para todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Establece estilos de texto predeterminados */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Elimina la lista de viñetas predeterminada en navegadores */
+ul {
+    list-style: none;
+}
+
+/* Establece estilos básicos para el cuerpo del documento */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Puedes agregar más reglas según sea necesario para tu proyecto específico */

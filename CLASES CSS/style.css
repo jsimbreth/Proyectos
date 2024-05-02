@@ -1,0 +1,52 @@
+.fondo {
+    background-color: rgb(224, 172, 108);
+}
+
+h1 {
+    background-color: aquamarine;
+}
+ button{
+
+background-color: blue;
+ }
+
+ .title {
+    font-size: 3em;
+
+    background-color: rgb(176, 194, 39);
+ }
+
+ #Principal {
+    font-size: 2.8em;
+    background-color: rgb(101, 125, 76);
+
+ }
+ .logo {
+    width: 500px;
+ }
+.cards:hover{
+   background-color: rgb(196, 212, 212);
+}
+ .
+#titulos{
+border:2px solid rgb(177, 192, 188);
+width: 50em;
+margin: auto;
+padding: 3em;
+ }
+
+ #cards-container{
+   background-color: rgb(189, 174, 203);
+   width: 85%;
+   margin: auto;
+   margin-top: 1.5em;
+   border: 2px solid rgb(141, 62, 62);
+   background-origin: padding-box; 15px;
+   padding: 2em;
+   display: flex;
+   flex-direction: row;
+   justify-content: flex-end;
+}
+
+
+

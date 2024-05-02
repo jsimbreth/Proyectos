@@ -1,0 +1,188 @@
+
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title> Formulario </title>
+    </head>
+    <body>
+        <h1>FORMULARIOS</h1>
+        <!--como crear un campo de texto-->
+        <form action="/formulario.html">
+        <!--enctype atributo y nos permite saber que etipo de imformacion estamos enviando si dato texto y etc-->
+        <form>
+<!--EL "div" es un contenedor dentro de un codigo de html y ccs-->
+            <fieldset>
+                <ol>
+                    <li>
+                
+                        <legend>Imformacion personal:</legend>
+                        <label for="nombre">Nombre:</label>
+                        <input type="text" name="Nombre" id="Nombre" placeholder="Nombre">
+                    
+                    </li>
+                    
+                    <br>
+                    <li>
+                        
+            <label for="descripcion">Descripcion:</label>
+            <textarea name="descripcion" id="" cols="10" rows="10" placeholder="descripcion"></textarea>
+               
+                        
+                    </li>
+                    <br>
+                    <li>
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" placeholder="correo"/ required>
+  <!--Este atributo es requerido para un formulario y colocarlo como requerido required-->                       
+            
+                    </li>
+                    <li>
+                        <label for="password">contraseña</label>
+                        <input type="password" name="contraseña" id="contraseña" placeholder="contraseña"/>
+
+                    </li>
+                    <li>
+                        <input type="radio" name="genero" id="mujer" placeholder="genero" value="mujer"/>
+                        <label for="mujer">mujer</label>
+<!--El name en las opciones sirve para no marcas mas de una opcion-->
+                        <input type="radio" name="genero" id="hombre" placeholder="genero" value="hombre"/>
+                        <label for="hombre">hombre</label>
+
+                    </li>
+<!--Label esta etiqueta sirve para selecionar la OPCION Solo con pararnos sobre el texto-->
+                    <li>
+                        <select>
+                            <option value="hombre" >Hombre</option>
+                            <option value="mujer">Mujer</option>
+<!--El ATRIBUTO "VALUE" ES PARA ENVIAR UN VALOR AL SERVIDOR -->
+                            <option value="otro">Otro</option>
+                        </select>
+                            
+                    </li>
+                   </li>
+<!--Checkbook sirve para abrir un recuadro donde seleccione una opcion yse usa como casilla de verificacion-->
+                    Checkbook:
+                    <label for="Mayor de edad">
+                        <input id="Mayor de edad" type="checkbox" checked> Mayor de edad
+                    </label>
+
+                    <label for="Menor de edad">
+                        <input id="Menor de edad" type="checkbox"/> Menor de edad
+                    </label>
+
+<!--para seleccionar color dentro de un formulario-->
+                    <label>
+                        <div>
+                            Color:<input type="color"> 
+                         </div>
+     
+                    </label>
+
+<!--para seleccionar fecha dentro de un formulario-->
+                    <label>
+                        <div>
+                            fecha:
+                            <input type="date"> 
+                         </div>
+     
+                    </label>
+<!--para seleccionar fichero dentro de un formulario-->
+                    <label>
+                        <div>
+                            fichero:
+                            <input type="file"> 
+                         </div>
+     
+                    </label>
+
+                    <!--formulario de oculto-->
+                    <label>
+                        <div>
+                            Oculto:
+                            <input type="hidden" name="oculto" value="esta Oculto"/> 
+                         </div>
+     
+                    </label>
+        <!--formulario de rango y numero-->
+                    <label>
+                        <div>
+                            Rango:
+                            <input type="range"/>
+                        
+                         </div>
+
+                         <div>
+                            Numero:
+                            <input type="number">
+                         </div>
+     
+                    </label>
+                    <label>
+                        <div>
+                            BUSCAR:
+                            <input type="search" name="Buscar"/>
+                            <button>Buscar</button>
+
+                        
+                        </div>
+
+                        <div>
+                            Telefono:
+                            <input type="tel">
+                        </div>
+
+                        <div>
+
+                            Hora:
+                            <input type="time">
+                        </div>
+
+                        <div>
+
+                            sitio web:
+                            <input type="url">
+                        </div>
+
+                        <div>
+                          
+                            Barra progreso:
+                            <progress min="1"  max="100" value="45"></progress>                
+                        </div>
+
+                        <div>
+                            Meter:
+                            <meter min="1"  max="100" value="45"></meter>                
+                        </div>
+                        <!--Este es para dar una formulario siendo opcion de escribir la primera letra -->
+                        <div>
+                            Listas de datos:
+                            <input list="Frutas" type="Fruta"/>
+                            <datalist id="Frutas">
+                                <option value="pera"></option>
+                                <option value="Manzana"></option>
+                                <option value="Naranaja"></option>
+                                <option value="Guayaba"></option>
+                                <option value="Lulo"></option>
+                            </datalist>
+
+                        </div>
+                        
+                    </label>
+                    
+                    
+                    
+        </fieldset>
+        <input type="submit" value="Enviar "/>
+
+        <!---ESTE SE UTILIZA PARA LIMPIAR-->
+
+        <input type="reset" value="Limpiar"/>
+
+           </ol>
+        </form>
+
+
+        </form>
+    </body>
+</html>

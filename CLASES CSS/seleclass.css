@@ -1,0 +1,58 @@
+.logo {
+    width: 600px;
+    border-radius: 10%;
+}
+.css-title {
+  
+    font-size: auto;
+    font-family: "Marcador permanente", cursiva;
+
+   
+
+    background-color: rgb(204, 223, 204);
+ }
+ h1{
+    color: rgb(122, 81, 108);
+ }
+
+#cards-container {
+  font-size: medium;
+  color: rgb(44, 74, 74);
+  width: 20px;
+}
+#pintuclass {
+  font-size: 30px;
+  font-family: "Smokum", serif;
+  border-color: blue;
+  color: rgb(173, 84, 98); 
+
+}
+#reseti {
+  font-size: 50px;
+  font-family: "Marcador permanente", cursiva;
+  color: rgb(70, 128, 128);
+  border-radius: 15%;
+  border-color: rgb(100, 100, 100);
+  
+}
+
+
+
+.cards {
+  border: 8px solid rgb(115, 61, 61);
+  width:fit-content;
+  padding: 1em 1em 1em 1em ;
+  border-bottom: 1%;
+  border-style: groove solid dashed dotted;
+  margin: 0px 0px;
+  
+}
+.loren-class {
+  font-family: 'sans-serif';
+  font-style: 'inherit';
+ background-color: rgb(107, 107, 116);
+}
+h2 {
+  font-family: "Marcador permanente", cursiva;
+  width: 200 a 800 ;
+}
